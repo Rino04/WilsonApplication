@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Little Payment">
+        <menu>
+            <item
+                android:id="@+id/nav_wallent"
+                android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+                android:title="@string/menu_wallent" />
+            <item
+                android:id="@+id/nav_payment"
+                android:icon="@drawable/ic_payment_black_24dp"
+                android:title="@string/menu_payment" />
+        </menu>
+    </item>
+
+    <item android:title="Liitle Rides">
+        <menu>
+            <item
+                android:id="@+id/nav_ride_history"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="@string/menu_ride_history" />
+            <item
+                android:id="@+id/nav_corporate"
+                android:icon="@drawable/ic_business_black_24dp"
+                android:title="@string/menu_corporate" />
+            <item
+                android:id="@+id/nav_shuttle"
+                android:icon="@drawable/ic_directions_bus_black_24dp"
+                android:title="@string/menu_shuttle" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

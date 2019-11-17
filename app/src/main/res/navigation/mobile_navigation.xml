@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.wilsonapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_wallent"
+        android:name="com.example.wilsonapplication.ui.wallent.WallentFragment"
+        android:label="@string/menu_wallent"
+        tools:layout="@layout/fragment_wallent" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.wilsonapplication.ui.payment.PaymentFragment"
+        android:label="@string/menu_payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/nav_ride_history"
+        android:name="com.example.wilsonapplication.ui.rideHistory.RideHistoryFragment"
+        android:label="@string/menu_ride_history"
+        tools:layout="@layout/fragment_ride_history" />
+
+    <fragment
+        android:id="@+id/nav_corporate"
+        android:name="com.example.wilsonapplication.ui.corporate.CorporateFragment"
+        android:label="@string/menu_corporate"
+        tools:layout="@layout/fragment_corporate" />
+
+    <fragment
+        android:id="@+id/nav_shuttle"
+        android:name="com.example.wilsonapplication.ui.shuttle.ShuttleFragment"
+        android:label="@string/menu_shuttle"
+        tools:layout="@layout/fragment_shuttle" />
+
+</navigation>
